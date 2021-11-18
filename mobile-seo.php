@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "services";
 include_once('header.php');
 ?>
         <!-- banner -->
@@ -25,7 +25,7 @@ include_once('header.php');
 
        </div>
        <div class=" seo-subpage__image-wrapper">
-           <img class="img-fluid" width="500px" height="500px" src="./assets/images/mobileseo.png" alt="">
+           <img class="img-fluid" width="500px" height="500px" src="./assets/images/Seo-solution-mobilepage.jpg" alt="">
        </div>
     </section>
 

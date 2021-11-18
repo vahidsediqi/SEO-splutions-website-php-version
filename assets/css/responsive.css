@@ -1,15 +1,18 @@
+/* Globale */
 
+
+/* Global ends */
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
-@media only screen and (max-width: 850PX) {
+ @media only screen and (max-width: 850PX) {
 
 
+    
 /* seo subpages */
 .seo-subpages__banner{
    max-width: 100%;
     grid-template-columns: 1fr;
     padding: 20px;
-  
 }
 
 
@@ -430,6 +433,11 @@ justify-content: center;
     width: 90%;
    }
    
+   .post-wrapper{
+    max-width: 100%;
+    padding-left: 25px;
+    padding-right: 25px; 
+   }
    .blog-section-title{
     padding-top: 80px;
    }
@@ -458,6 +466,18 @@ justify-content: center;
       END OF HOME PAGE STYLE
     ======================== 
  */
+/* SOCIAL MEIDA PAGE */
+
+ .social-media-page-title{
+    font-size: 4rem;
+    line-height: 0.5;
+    margin-top: 35px;
+   }
+  
+   .social-media-page-sub-title{
+    font-size: 9rem;
+    color: var(--site-red)
+   }
 
  /* ============
 PAGE LOGO DESIGN 
@@ -821,8 +841,6 @@ display: none;
 }
 
 
-
-
   }
 
 
@@ -850,6 +868,15 @@ display: none;
         width:auto;
     }
 
+     /* App dev Page */
+
+     .app-dev-banner-wrapper {
+        text-align: center;
+      }
+      
+      .app-dev-banner-wrapper img {
+          max-width: 100%;
+        } 
 
      /* BLOG WRAPPER */
 
@@ -872,6 +899,4 @@ display: none;
 
   
 
-
-  /* (LARGE SCREEN) 1201PX - 1800PX*/
 

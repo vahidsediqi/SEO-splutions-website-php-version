@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "services";
 include_once('header.php');
 ?>
   <!-- CTA SECTION -->

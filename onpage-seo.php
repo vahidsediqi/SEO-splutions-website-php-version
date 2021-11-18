@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "services";
 include_once('header.php');
 ?>
         <!-- banner -->
@@ -7,8 +7,8 @@ include_once('header.php');
        <div class=" seo-subpage__content-wrapper">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item"><a href="seo-agentur-wien.html">SEO Agentur</a></li>
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="seo-agentur-wien.php">SEO Agentur</a></li>
               <li class="breadcrumb-item active" aria-current="page">On-Page SEO</li>
             </ol>
           </nav>
@@ -29,7 +29,7 @@ include_once('header.php');
 
        </div>
         <div class=" seo-subpage__image-wrapper">
-           <img class="img-fluid" width="500px" height="500px" src="./assets/images/onpageseo.png" alt="">
+           <img class="img-fluid" width="500px" height="500px" src="./assets/images/Seo-solution-onpage.jpg" alt="onpage seo">
        </div>
     </section>
 

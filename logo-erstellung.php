@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "services";
 include_once('header.php');
 ?>
   <!-- BANNER SECTION -->
@@ -10,11 +10,13 @@ include_once('header.php');
     <div>
         <div class="logo-design-banner-title-wrapper">
             <div class="logo-design-banner-title-wrapper">
-                <h1 class="logo-design-rotate-title">Erstklassiges </h1>
+                <!-- <h1 class="logo-design-rotate-title">Erstklassiges </h1> -->
+                <h1 class="">Erstklassiges </h1>
                 <h2 class="logo-design-half-cut-title">
-                    <span>BR</span>
+                    <!-- <span>BR</span>
                     <span>AND</span>
-                    <span>ING</span>
+                    <span>ING</span> -->
+                    branding
                 </h2>
                 <p class="logodesign-page-desc">
                     Wir bieten Ihnen ein modernes und individuelles Logodesgin für Ihr Unternehmen.             
@@ -22,7 +24,6 @@ include_once('header.php');
             </div>
             <a href="tel:06641077144" class="hvr-shutter-in-horizontal talk-btn push-btn-left">Kontakt</a>
         </div>  
-       
     </div>  
 </section>
 
@@ -41,7 +42,7 @@ include_once('header.php');
 <section class="webdesign-card-wrapper">
     <h1>UI Expertis</h1>
 <div class="landscape-card-wprapper">
-    <div class="landscape-card Information-architecture hvr-rectangle-out">
+    <div class="landscape-card Information-architecture hvr-bounce-to-top">
         <h2>Information Architecture</h2>
         <div class="landscape-card-overlay">
             <h3 class="card-title">Developement</h3>
@@ -50,45 +51,45 @@ include_once('header.php');
             </p>
         </div>
     </div>
-    <div class="landscape-card user-flow">
+    <div class="landscape-card user-flow  hvr-bounce-to-top">
         <h2>User Flow Mapping</h2>
-        <div class="landscape-card-overlay  hvr-rectangle-out">
+        <div class="landscape-card-overlay">
             <h3 class="logo-design-card-title">Benutzererfahrung</h3>
             <p>
                 Die User Flow Analyse hilft bei der Visualisierung von Bedürfnissen und Problemen der Nutzer. Die Kundenerfahrung wird anhand der Analyse optimiert. 
             </p>
         </div>
     </div>
-    <div class="landscape-card wireframing">
+    <div class="landscape-card wireframing  hvr-bounce-to-top">
         <h2>Wireframing</h2>
-        <div class="landscape-card-overlay  hvr-rectangle-out">
+        <div class="landscape-card-overlay">
             <h3 class="card-title">Webseite Wireframing</h3>
             <p>
                 Visualisierung von Beziehungen zwischen Elementen die zu einer Erstellung von Webanwendungen und Webseiten dienen. 
             </p>
         </div>
     </div>
-    <div class="landscape-card user-interface">
+    <div class="landscape-card user-interface  hvr-bounce-to-top">
         <h2>User Interface Design</h2>
-        <div class="landscape-card-overlay  hvr-rectangle-out">
+        <div class="landscape-card-overlay">
             <h3 class="card-title">UI Design</h3>
             <p>
                 Wir sind die Profis bei der visuellen marktorientierten Gestaltung von digitalen Anwendungen. Kostenloses Angebot bei SEO Solutions.
             </p>
         </div>
     </div>
-    <div class="landscape-card responsive-design">
+    <div class="landscape-card responsive-design  hvr-bounce-to-top">
         <h2>Responsive Design</h2>
-        <div class="landscape-card-overlay  hvr-rectangle-out">
+        <div class="landscape-card-overlay">
             <h3 class="card-title">Webdesign</h3>
             <p>
                 Mit dem responsive Webdesign wird die Webseite auf diversen Bildschirmgrößen und Endgeräten anders dargestellt (angepasst).
             </p>
         </div>
     </div>
-    <div class="landscape-card prototyping">
+    <div class="landscape-card prototyping  hvr-bounce-to-top">
         <h2>Prototyping</h2>
-        <div class="landscape-card-overlay  hvr-rectangle-out">
+        <div class="landscape-card-overlay">
             <h3 class="card-title">Softwareengineering</h3>
             <p>
                 Entwicklung von Prototypen im Bereich von Software-Engineering. Der Verlauf von Prototypen bis zum Endgültigen Fertigprodukt. 
@@ -139,16 +140,16 @@ include_once('header.php');
 <section class="webdesign-card-wrapper pb-5">
     <h2>Development Expertise</h2>
     <div class="landscape-card-wprapper">
-        <div class="landscape-card app-cards hvr-rectangle-out ">
+        <div class="landscape-card app-cards">
             <h2>Responsive Layout</h2>
-            <div class="landscape-card-overlay">
+            <div class="landscape-card-overlay  hvr-bounce-to-top">
                 <span>Responsive Layout</span>
                 <p>
                     Wir bauen Webseiten mit reaktionsfähigem Design, der sich an diverse Endgeräte und Dimensionen von alleine anpasst. 
                 </p>
             </div>
         </div>
-        <div class="landscape-card app-cards hvr-rectangle-out ">
+        <div class="landscape-card app-cards  hvr-bounce-to-top">
             <h2>Komponentbasiertes Webdesign</h2>
             <div class="landscape-card-overlay">
                 <span>Komponentbasiertes Webdesign</span>
@@ -157,7 +158,7 @@ include_once('header.php');
                 </p>
             </div>
         </div>
-        <div class="landscape-card app-cards hvr-rectangle-out ">
+        <div class="landscape-card app-cards  hvr-bounce-to-top">
             <h2>Moderne JS Frameworks</h2>
             <div class="landscape-card-overlay">
                 <span>Moderne JS Frameworks</span>
@@ -166,7 +167,7 @@ include_once('header.php');
                 </p>
             </div>
         </div>
-        <div class="landscape-card app-cards hvr-rectangle-out ">
+        <div class="landscape-card app-cards  hvr-bounce-to-top">
             <h2>Living Style Guide</h2>
             <div class="landscape-card-overlay">
                 <span>Living Style Guide</span>
@@ -175,7 +176,7 @@ include_once('header.php');
                 </p>
             </div>
         </div>
-        <div class="landscape-card app-cards hvr-rectangle-out ">
+        <div class="landscape-card app-cards  hvr-bounce-to-top">
             <h2>Skalierbarer CSS-Layout</h2>
             <div class="landscape-card-overlay">
                 <span>Skalierbarer CSS-Layout</span>
@@ -184,7 +185,7 @@ include_once('header.php');
                  </p>
             </div>
         </div>
-        <div class="landscape-card app-cards hvr-rectangle-out ">
+        <div class="landscape-card app-cards  hvr-bounce-to-top ">
             <h2>APP Entwicklung </h2>
             <div class="landscape-card-overlay">
                 <span>Development Expertise</span>

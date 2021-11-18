@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "startseite";
 include_once('header.php');
 ?>
     <div class="main-wrapper">
@@ -20,16 +20,16 @@ include_once('header.php');
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                       <img  width="800" height="800" src="./assets/images/seo-solution-1.webp" class="d-block img-fluid" alt="SEO agentur wien">
+                       <img  width="800" height="800" src="./assets/images/seo-solution-1.webp"
+                       srcset="./assets/images/seo-banner1-lg.webp, ./assets/images/seo-banner1-sm.webp 400w" class="d-block img-fluid" alt="SEO agentur wien">
                     </div>
                     <div class="carousel-item">
-                       <img width="800" height="800" src="./assets/images/seo-solution-2.webp" class="d-block img-fluid" alt="SEO agentur wien">
+                         <img width="800" height="800" src="./assets/images/seo-solution-3_1.webp"
+                         srcset="./assets/images/seo-banner2-lg.webp, ./assets/images/seo-banner2-sm.webp 400w"  class="d-block img-fluid" alt="SEO agentur wien">
                     </div>
                     <div class="carousel-item">
-                         <img width="800" height="800" src="./assets/images/seo-solution-3_1.webp" class="d-block img-fluid" alt="SEO agentur wien">
-                    </div>
-                    <div class="carousel-item">
-                        <img width="800" height="800" src="./assets/images/seo-solution-4.webp" class="d-block img-fluid" alt="SEO agentur wien">
+                        <img width="800" height="800" src="./assets/images/seo-solution-4.webp" 
+                        srcset="./assets/images/seo-banner3-lg.webp, ./assets/images/seo-banner3-sm.webp 400w" class="d-block img-fluid" alt="SEO agentur wien">
                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -78,7 +78,9 @@ include_once('header.php');
 <!-- WEB DESIGN SECTION -->
 <section class="homepage-section-wrapper-img-lg pt-lg-5">
         <div class="web-design-image-wrapper">
-            <img  width="800" height="800" class="img-fluid"  src="./assets/images/web-design.webp" alt="web design">
+            <img  width="800" height="800" class="img-fluid" src="./assets/images/web-design-larg.webp"
+            srcset="./assets/images/web-design-small.png 400w, ./assets/images/web-design-larg.webp 700w "
+            alt="web design">
         </div>
         <div class="web-design-content-wrapper">
                 <h2 class="line-height">
@@ -93,11 +95,11 @@ include_once('header.php');
                 direkt die Nutzererfahrung – und kann der entscheidende Faktor sein. Unsere Webdesign Agentur mit
                 dem Sitz in Wien bietet Ihnen optimale Design Lösungen für Ihr Unternehmen an. 
                 </p>
-                <a class="learn-more-btn" href="./web-design.php">
+                <a class="learn-more-btn" href="./webdesign-wien.php">
                     <span class="arrow-btn"><i class="fas fa-chevron-right"></i></span>
                     <span class="learn-more-text" >Weiterlesen</span>
                 </a>
-                <a class="learn-more-btn-for-mob" href="./web-design.php">
+                <a class="learn-more-btn-for-mob" href="./webdesign-wien.php">
                     <i class="fas fa-chevron-right"></i> Weiterlesen
             </a>
         </div>
@@ -112,11 +114,11 @@ include_once('header.php');
             <p class="section-p">
                 Die Macht der Suchmaschinenoptimierung bringt Ihnen mehr Traffic, mehr Kunden und mehr Umsatz! Verbessern Sie das Ranking Ihrer Webseite in den Suchmaschinen und steigern Sie den Erfolg Ihres Unternehmens. Unsere SEO-Strategien liefern JEDES Mal Ergebnisse! Wir bieten Ihnen erstklassige SEO in ganz Österreich an. Bei dem kostenlosen Beratungstermin besprechen wir Ihre genauen Bedürfnisse und bieten Ihnen optimale Lösungen an. Mit der SEO machen wir Sie für Kunden sichtbar! Kontaktieren Sie uns für ein professionelles und individuell angepasste Suchmaschinenoptimierung Wien.
             </p>
-            <a class="learn-more-btn" href="./seo.php">
+            <a class="learn-more-btn" href="./seo-agentur-wien.php">
                 <span class="arrow-btn"><i class="fas fa-chevron-right"></i></span>
                 <span class="learn-more-text">Weiterlesen</span>
             </a>
-            <a class="learn-more-btn-for-mob" href="./seo.php">
+            <a class="learn-more-btn-for-mob" href="./seo-agentur-wien.php">
                 <i class="fas fa-chevron-right"></i> Weiterlesen
             </a>
         </div>
@@ -128,7 +130,9 @@ include_once('header.php');
     <!-- APP DESIGN SECTION -->
     <section class="homepage-section-wrapper-img-lg">
             <div class="app-design-image-wrapper">
-                <img  width="800" height="800" class="img-fluid"  src="./assets/images/app_1.webp" alt="App-Design wien">
+                <img  width="800" height="800" class="img-fluid"  src="./assets/images/app-entwicklung-lg.webp" alt="App-Design wien"
+                   srcset="./assets/images/app-entwicklung-lg.webp 400w, ./assets/images/app-entwicklung-sm.webp 400w"
+                >
             </div>
             <div class="app-design-content-wrapper">
                     <h2 class="section-title-black">APP</h2> 
@@ -141,11 +145,11 @@ include_once('header.php');
                     und Trends standhält. 
                     Nehmen Sie mit uns Kontakt für ein Beratungsgespräch auf. Eine APP Idee kann große Erfolge bringen. 
                     </p>
-                    <a class="learn-more-btn" href="./app.php">
+                    <a class="learn-more-btn" href="./app-entwicklung.php">
                         <span class="arrow-btn"><i class="fas fa-chevron-right"></i></span>
                         <span class="learn-more-text">Weiterlesen</span>
                     </a>
-                    <a class="learn-more-btn-for-mob" href="./app.php">
+                    <a class="learn-more-btn-for-mob" href="./app-entwicklung.php">
                         <i class="fas fa-chevron-right"></i> Weiterlesen
                 </a>
             </div>
@@ -164,11 +168,11 @@ include_once('header.php');
                     sondern auch die Botschaft Ihrer Firma unterstützen.
                     Unsere Grafiker achten auf die richtige Farbauswahl und zeichnen jedes Logo individuell. 
                 </p>
-                <a class="learn-more-btn" href="./app.php">
+                <a class="learn-more-btn" href="./logo-erstellung.php">
                     <span class="arrow-btn"><i class="fas fa-chevron-right"></i></span>
                     <span class="learn-more-text">Weiterlesen</span>
                 </a>
-                <a class="learn-more-btn-for-mob" href="./logo.php">
+                <a class="learn-more-btn-for-mob" href="./logo-erstellung.php">
                     <i class="fas fa-chevron-right"></i> Weiterlesen
                 </a>
             </div>
@@ -294,7 +298,7 @@ include_once('header.php');
             </section>
 
             <!-- BLOG SECTION -->
-          <section class="blog-wrapper">
+          <!-- <section class="blog-wrapper">
               <div class="blog-section-title">
                   <h2 class="blog-title text-center">Unser Blog</h2>
                   <h3 class="blog-subtitle text-center">Hören Sie von uns</h3>
@@ -305,7 +309,7 @@ include_once('header.php');
                       <div>
                           <br>
                           <span>12/08/2021 | Was ist OnPage SEO </span>
-                          <a class="blog-exper" target="-blank" href="https://www.seosolutions.at/was-ist-on-page-seo/"> Grundlage der Suchmaschinenoptimierung Jede SEO Strategie  </a>
+                          <a class="blog-exper"  href="./was-ist-on-page-seo.php"> Grundlage der Suchmaschinenoptimierung Jede SEO Strategie  </a>
                       </div>
                   </div>
                   <div class="blog-card">
@@ -313,17 +317,68 @@ include_once('header.php');
                     <div>
                         <br>
                         <span>18/10/2021  | Was ist JavaScript, wozu dient es? </span>
-                        <a class="blog-exper" target="-blank" href="https://www.seosolutions.at/was-ist-react/">Was ist JavaScript JavaScript ist eine Skriptsprache,</a>
+                        <a class="blog-exper"  href="./was-ist-javascript.php">Was ist JavaScript JavaScript ist eine Skriptsprache,</a>
                     </div>
                   </div>
                   <div class="blog-card more-blog">
-                    <a target="-blank" href="https://www.seosolutions.at/blog/"><span>Weiterlesen <i class="fas fa-arrow-alt-circle-right"></i></span></a> 
+                    <a  href="./blog.php"><span>Weiterlesen <i class="fas fa-arrow-alt-circle-right"></i></span></a> 
                   </div>
               </div>
-          </section> 
+          </section>  -->
+
+<div class="mt-5 pt-5">
+<h2 class="blog-title text-center">Unser Blog</h2>
+<h3 class="blog-subtitle text-center">Hören Sie von uns</h3>
+<section class="cards-wrapper-home">
+    <div class="card-grid-space">
+        
+      <div class="num">01</div>
+      <a class="blog-page-card" href="./was-ist-on-page-seo.php"
+       style="background-image: url('./assets/images/blog1.webp')">
+        <div>
+          <h1>OnPage SEO</h1>
+          <p>Jede SEO Strategie konzentriert sich darauf, in den Suchmaschinen so hoch wie möglich zu rangieren. Zu diesem Zweck versuchen wir als professionelle SEO Agent…</p>
+          <div class="date">6-10-2021</div>
+          <div class="tags">
+            <div class="tag">SEO</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="card-grid-space">
+      <div class="num">02</div>
+      <a class="blog-page-card" href="./was-ist-react.php" 
+      style="background-image: url('./assets/images/blog2.webp')">
+        <div>
+          <h1>Was ist React?</h1>
+          <p>React ist eine hervorragende Ergänzung zu Projekten, die Wiederverwendbarkeit von Komponenten, beeindruckende Benutzerinteraktionen oder verrückte Animationen…</p>
+          <div class="date">9 Oct 2017</div>
+          <div class="tags">
+            <div class="tag">REACJS</div>
+            <div class="tag">JAVASCRIPT</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="card-grid-space">
+      <div class="num">03</div>
+      <a class="blog-page-card" href="./was-ist-javascript.php" 
+      style="background-image: url('./assets/images/blog3.webp')">
+        <div>
+          <h1>Was ist JavaScript, wozu dient es?</h1>
+          <p>Was ist JavaScript JavaScript ist eine Skriptsprache, die entwickelt wurde, um Webseiten Lebendigkeit und Dynamik zu verleihen…</p>
+          <div class="date">14 Oct 2017</div>
+          <div class="tags">
+            <div class="tag">JAVASCRIPT</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+</div>
         </div>
         <!-- WEBSITE CONTENT END HERE -->
-    </div>
+</div>
 <div class="from-oldsite">
    <h2>
     SEO Agentur Wien - Werden Sie in Google die Nr. 1 mit dem SEO Solutions Team

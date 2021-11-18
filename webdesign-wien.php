@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "services";
 include_once('header.php');
 ?>
     <!-- Banner starts here -->
@@ -8,17 +8,18 @@ include_once('header.php');
         <img class="img-fluid" src="./assets/images/webdesign-banner.png" alt="web design">
     </div>
     <div class="logo-design-banner-title-wrapper">
-        <div class="logo-design-banner-title-wrapper">
+        <div class="web-design-banner-title-wrapper">
             <h1 class="wedesign-banner-rotate-text">Webseite</h1>
             <h2 class="logo-design-half-cut-title">
                 <span>de</span>
                 <span>si</span>
                 <span>gn</span>
             </h2>
-            <p class="logodesign-page-desc">
+     
+        </div>
+        <p class="webdesign-page-desc">
                 Wir bieten Ihnen ein modernes und individuelles Logodesgin für Ihr Unternehmen.             
             </p>
-        </div>
         <a href="tel:06641077144" class="hvr-shutter-in-horizontal talk-btn push-btn-left">Kontakt</a>
     </div>  
 </section>

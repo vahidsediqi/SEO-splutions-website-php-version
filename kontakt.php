@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "contact";
 include_once('header.php');
 ?>
     <div class="homepage-section-wrapper-img-lg contact-page-wrapper">
@@ -15,11 +15,11 @@ include_once('header.php');
 
         <!-- CONTACT FORM -->
         <div class="form-wrapper">
-            <form action="">
-                <input class="form-fields" type="text" name="" id="" placeholder="Ansprechpartner">
-                <input class="form-fields" type="text" name="" id="" placeholder="Telefonnummer">
-                <input class="form-fields" type="email" name="" id="" placeholder="E-Mail">
-                <textarea class="form-text" placeholder="Nachricht"></textarea>
+            <form action="mail.php" method="POST">
+                <input class="form-fields" type="text" name="name" id="" placeholder="Ansprechpartner">
+                <input class="form-fields" type="text" name="tel" id="" placeholder="Telefonnummer">
+                <input class="form-fields" type="email" name="email" id="" placeholder="E-Mail">
+                <textarea class="form-text" placeholder="Nachricht" name="message"></textarea>
                 <button type="submit" class="talk-btn hvr-bounce-to-right">Senden</button>
             </form>
         </div>

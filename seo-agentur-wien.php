@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+$curr_page = "services";
 include_once('header.php');
 ?>
    <!-- BANNER SECTION -->
@@ -9,7 +9,7 @@ include_once('header.php');
            </div>
            <!-- image ends -->
             <div class="seo-banner-content-wrapper">
-                  <h1 class="red-title">SEO Agentur Wien</h1>
+                  <h1 class="red-title laptop-title">SEO Agentur Wien</h1>
                   <h2 class="section-subtitle">Stärken Sie Ihre Online Präsenz</h2>
                   <p class="section-p">
                     Erobern Sie die Suchmaschinen mit der Macht der SEO. Gewinnen Sie zahlreiche Neukunden mit unseren erfolgreichen SEO Strategien für Ihr Unternehmen.
