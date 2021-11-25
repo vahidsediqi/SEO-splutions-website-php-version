@@ -1,3 +1,28 @@
 Options +SymLinksIfOwnerMatch 
 RewriteEngine On
 ErrorDocument 404 /404.php
+RewriteRule ^app-entwicklung app-entwicklung.php  [L,NC]
+
+RewriteRule ^blog blog.php  [L,NC]
+
+RewriteRule ^impressum impressum.php  [L,NC]
+
+RewriteRule ^kontakt kontakt.php  [L,NC]
+
+RewriteRule ^local-seo local-seo.php  [L,NC]
+
+RewriteRule ^logo-erstellung logo-erstellung.php  [L,NC]
+
+RewriteRule ^mobile-seo mobile-seo.php  [L,NC]
+
+RewriteRule ^offpage-seo offpage-seo.php  [L,NC]
+
+RewriteRule ^webdesign-wien webdesign-wien.php  [L,NC]
+
+
+RewriteRule ^onpage-seo onpage-seo.php  [L,NC]
+RewriteRule ^seo-agentur-wien seo-agentur-wien.php  [L,NC]
+RewriteRule ^social-media-management social-media-management.php  [L,NC]
+RewriteRule ^was-ist-javascript was-ist-javascript.php  [L,NC]
+RewriteRule ^was-ist-on-page-seo was-ist-on-page-seo.php  [L,NC]
+RewriteRule ^was-ist-react was-ist-react.php  [L,NC]

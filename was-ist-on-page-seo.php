@@ -1,15 +1,15 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'Blog | Was ist OnPage SEO';
+$PageDescription = ' Jede SEO Strategie konzentriert sich darauf, in den Suchmaschinen so hoch wie möglich zu rangieren.';
 include_once('header.php');
 ?>
 
-
 <div class="post-wrapper">
-
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-              <li class="breadcrumb-item"><a href="./blog.php">Blog</a></li>
+              <li class="breadcrumb-item"><a href="index">Home</a></li>
+              <li class="breadcrumb-item"><a href="./blog">Blog</a></li>
               <li class="breadcrumb-item active" aria-current="page">Was ist OnPage SEO</li>
             </ol>
           </nav>

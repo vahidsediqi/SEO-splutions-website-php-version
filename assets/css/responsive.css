@@ -520,7 +520,7 @@ PAGE LOGO DESIGN
     line-height: 0.8;
     color: var(--site-red);
     text-transform: uppercase;
-    margin: auto;
+    justify-content: center;
 }
 .logo-design-rotate-title{
     text-transform: uppercase;
@@ -638,14 +638,7 @@ PAGE LOGO DESIGN
     grid-gap: 50px;
 }
 
-.webdesign-banner-content-wrapper{
-   padding: auto;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
 
-}
 
 .wedesign-banner-rotate-text{
     text-transform: uppercase;
@@ -653,10 +646,12 @@ PAGE LOGO DESIGN
     transform: rotate(0);
     position: relative;
     margin: auto;
-    margin-top: auto;
-    margin-top: 35px;
 }
 
+.web-design-banner-title-wrapper {
+    padding: 10px;
+    text-align: center;
+}
 .webdesign-banner-content-wrapper{
     position: relative;
     padding-top: 0;

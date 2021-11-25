@@ -1,13 +1,15 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'Blog | Was ist JavaScript, wozu dient es?';
+$PageDescription = 'JavaScript ist eine Skriptsprache, die entwickelt wurde, um Webseiten Lebendigkeit und Dynamik zu verleihen.';
 include_once('header.php');
 ?>
 
 <div class="post-wrapper">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-              <li class="breadcrumb-item"><a href="./blog.php">Blog</a></li>
+              <li class="breadcrumb-item"><a href="index">Home</a></li>
+              <li class="breadcrumb-item"><a href="./blog">Blog</a></li>
               <li class="breadcrumb-item active" aria-current="page">Was ist JavaScript</li>
             </ol>
           </nav>

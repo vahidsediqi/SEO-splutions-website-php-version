@@ -1,5 +1,7 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'Logo Erstellung Wien - Modernes Logodesign';
+$PageDescription = ' Professionelle Logo Erstellung - kostenloses Angebot für Logodesign Wien. Unternehmensidentität - Ihr Firmenzeichen, Logo erstellen lassen von erfahrenen Designer';
 include_once('header.php');
 ?>
   <!-- BANNER SECTION -->

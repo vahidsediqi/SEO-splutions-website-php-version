@@ -400,9 +400,6 @@ li {
     text-align: left;
 }
 
-.carousel-item > img {
-    width: 100%;
-} 
 
 .homepage-rotate-title{
     text-transform: uppercase;
@@ -1979,7 +1976,7 @@ align-items: center;
     transition-property: box-shadow, transform;
   }
   .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); */
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }

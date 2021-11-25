@@ -1,7 +1,12 @@
 <?php
 $curr_page = "startseite";
+$PageTitle = 'SEO Agentur Wien';
+$PageDescription = 'Erfolgreiches digitales Marketing für Ihr Unternehmen mit SEO Solutions. Wir machen Sie sichtbar! ';
 include_once('header.php');
 ?>
+<meta name="description" content="Unsere Räumungsfirma Wien bietet Ihnen alles rund um die Entrümpelung Wien und Räumung Wien. Ganz gleich ob Wohnungsräumung, Haushaltsauflösung" />
+<meta name="Robots" content="noindex, follow" />
+
     <div class="main-wrapper">
         <div class="side-bar">
             <!-- sidebar goes here -->
@@ -53,6 +58,7 @@ include_once('header.php');
                 </h2>
                 <p class="section-p homepage-banner-p">
                     Erfolgreiches digitales Marketing für Ihr Unternehmen mit SEO Solutions. Wir machen Sie sichtbar!
+                   
                  </p>
             </div>
                 <a href="tel:06641077144" class="hvr-shutter-in-horizontal talk-btn push-btn-left">Kontakt</a>

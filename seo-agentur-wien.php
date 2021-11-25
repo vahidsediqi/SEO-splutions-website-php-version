@@ -1,5 +1,7 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'Spitzenreiter SEO Agentur Wien - erfolgreiches SEO Wien';
+$PageDescription = 'Erfahrene SEO Agentur Wien - erfolgreiche Suchmaschinenoptimierung. Wir bieten Ihnen SEO Wien zum besten Konditionen an. Steigern Sie Ihre Internet Sichtbarkeit.';
 include_once('header.php');
 ?>
    <!-- BANNER SECTION -->
@@ -93,16 +95,16 @@ include_once('header.php');
       <div class="service-list-wrapper">
           <ul class="service-list">
               <li class="service-list-items">
-                  <a class="service-link-item hvr-grow-shadow" href="onpage-seo.php"><i class="fas fa-chevron-right"></i> On-Page SEO</a>
+                  <a class="service-link-item hvr-grow-shadow" href="onpage-seo"><i class="fas fa-chevron-right"></i> On-Page SEO</a>
               </li>
               <li>
-                  <a class="service-link-item hvr-grow-shadow" href="offpage-seo.php"><i class="fas fa-chevron-right"></i> Off-Page SEO</a>
+                  <a class="service-link-item hvr-grow-shadow" href="offpage-seo"><i class="fas fa-chevron-right"></i> Off-Page SEO</a>
               </li>
               <li>
-                  <a class="service-link-item hvr-grow-shadow" href="local-seo.php"><i class="fas fa-chevron-right"></i> Local SEO</a>
+                  <a class="service-link-item hvr-grow-shadow" href="local-seo"><i class="fas fa-chevron-right"></i> Local SEO</a>
               </li>
               <li>
-                  <a class="service-link-item hvr-grow-shadow" href="mobile-seo.php"><i class="fas fa-chevron-right"></i> Mobile SEO</a>
+                  <a class="service-link-item hvr-grow-shadow" href="mobile-seo"><i class="fas fa-chevron-right"></i> Mobile SEO</a>
               </li>
           </ul>
       </div>

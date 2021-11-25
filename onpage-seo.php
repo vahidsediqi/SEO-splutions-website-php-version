@@ -1,5 +1,7 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'OnPage Seo - SEO Agentur Wien | Google Ads, Sozial Media, Webdesign Wien';
+$PageDescription = 'Zu einer erfolgreichen Suchmaschinenoptmierung gehört die OnPage Seo Optimierung dazu.';
 include_once('header.php');
 ?>
         <!-- banner -->
@@ -7,8 +9,8 @@ include_once('header.php');
        <div class=" seo-subpage__content-wrapper">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-              <li class="breadcrumb-item"><a href="seo-agentur-wien.php">SEO Agentur</a></li>
+              <li class="breadcrumb-item"><a href="index">Home</a></li>
+              <li class="breadcrumb-item"><a href="seo-agentur-wien">SEO Agentur</a></li>
               <li class="breadcrumb-item active" aria-current="page">On-Page SEO</li>
             </ol>
           </nav>

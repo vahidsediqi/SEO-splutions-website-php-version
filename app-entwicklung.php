@@ -1,5 +1,7 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'Professionelle Suchmaschinenoptimierung - SEO Agentur Wien';
+$PageDescription = 'Professionell Suchmaschinenoptimierung - Mit unserer professionellen SEO Agentur Wien wird der schnelle Aufstieg Ihrer Firma in Google-Ranking garantiert.';
 include_once('header.php');
 ?>
   <!-- CTA SECTION -->
@@ -25,7 +27,6 @@ include_once('header.php');
          <div class="app-dev-banner-image-wrapper">
             <img class="img-fluid" src="./assets/images/app-page-banner.jpg" alt="seo solutions climb up">
          </div>
-   
 </section>
 
 <div class="logo-design-extra-text">

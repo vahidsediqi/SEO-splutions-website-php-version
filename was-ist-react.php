@@ -1,5 +1,7 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'Blog | Was ist React, wo wird es verwendet?';
+$PageDescription = 'React ist eine hervorragende Ergänzung zu Projekten, die Wiederverwendbarkeit von Komponenten, ';
 include_once('header.php');
 ?>
 
@@ -7,8 +9,8 @@ include_once('header.php');
 <div class="post-wrapper">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-              <li class="breadcrumb-item"><a href="./blog.php">Blog</a></li>
+              <li class="breadcrumb-item"><a href="index">Home</a></li>
+              <li class="breadcrumb-item"><a href="./blog">Blog</a></li>
               <li class="breadcrumb-item active" aria-current="page">Was ist OnPage SEO</li>
             </ol>
           </nav>

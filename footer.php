@@ -11,10 +11,10 @@
                     <a href="#">Services</a>
                 </li> -->
                 <li>
-                    <a href="./kontakt.php">Kontakt</a>
+                    <a href="./kontakt">Kontakt</a>
                 </li>
                 <li>
-                    <a href="./blog.php">Blog</a>
+                    <a href="./blog">Blog</a>
                 </li>  
             </ul>
         </div>
@@ -23,19 +23,19 @@
             <h2>Dienstleistungen</h2>
             <ul>
                 <li>
-                    <a href="webdesign-wien.php">Web Design</a>
+                    <a href="webdesign-wien">Web Design</a>
                 </li>
                 <li>
-                    <a href="logo-erstellung.php">Logo Design</a>
+                    <a href="logo-erstellung">Logo Design</a>
                 </li>
                 <li>
-                    <a href="seo-agentur-wien.php">SEO Agentur</a>
+                    <a href="seo-agentur-wien">SEO Agentur</a>
                 </li>
                 <li>
-                    <a href="app-entwicklung.php">APP ENTWICKLUNG</a>
+                    <a href="app-entwicklung">APP ENTWICKLUNG</a>
                 </li>  
                 <li>
-                    <a href="social-media-management.php">Social Media Management</a>
+                    <a href="social-media-management">Social Media Management</a>
                 </li>
             </ul>
             <h2>
@@ -73,7 +73,7 @@
                     <a href="#">TERMS</a>
                 </li>
                 <li>
-                    <a href="./impressum.php">IMPRESSUM</a>
+                    <a href="./impressum">IMPRESSUM</a>
                 </li>
             </ul> 
         </div>     

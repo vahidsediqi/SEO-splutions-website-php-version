@@ -1,5 +1,7 @@
 <?php
 $curr_page = "contact";
+$PageTitle = 'Kontakt';
+$PageDescription = 'Kontaktieren Sie uns! 06641077144 office@seosolutions.at Pyrkergasse 30-32, A-1190 Wien';
 include_once('header.php');
 ?>
     <div class="homepage-section-wrapper-img-lg contact-page-wrapper">
@@ -15,7 +17,7 @@ include_once('header.php');
 
         <!-- CONTACT FORM -->
         <div class="form-wrapper">
-            <form action="mail.php" method="POST">
+            <form action="mail" method="POST">
                 <input class="form-fields" type="text" name="name" id="" placeholder="Ansprechpartner">
                 <input class="form-fields" type="text" name="tel" id="" placeholder="Telefonnummer">
                 <input class="form-fields" type="email" name="email" id="" placeholder="E-Mail">

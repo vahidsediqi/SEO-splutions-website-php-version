@@ -1,5 +1,7 @@
 <?php
 $curr_page = "services";
+$PageTitle = 'Webdesign Agentur Wien - Professionelle Webdesign Wien';
+$PageDescription = ' Erfahrene Webdesign Wien. Responsive Deisgn, Content Erstellung - kostenloses Angebot. Wordpress, HTML, CS, JavaScript etc. Webseite erstellen lassen.';
 include_once('header.php');
 ?>
     <!-- Banner starts here -->
@@ -7,7 +9,7 @@ include_once('header.php');
     <div class="slider-wrapper">
         <img class="img-fluid" src="./assets/images/webdesign-banner.png" alt="web design">
     </div>
-    <div class="logo-design-banner-title-wrapper">
+    <div class="web-design-banner-title-wrapper">
         <div class="web-design-banner-title-wrapper">
             <h1 class="wedesign-banner-rotate-text">Webseite</h1>
             <h2 class="logo-design-half-cut-title">
@@ -188,7 +190,7 @@ include_once('header.php');
                  </p>
             </div>
         </div>
-        <div class="landscape-card universal-app">
+        <div class="landscape-card universal-app hvr-bounce-to-top">
             <h2>APP Entwicklung </h2>
             <div class="landscape-card-overlay">
                 <span>Development Expertise</span>

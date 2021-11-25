@@ -1,6 +1,8 @@
 <?php 
-
+$PageTitle = 'Social Media Management in Wien - Ihr Social Media Partner';
+$PageDescription = 'Sie möchten Ihre Firma oder Ihr Brand in den sozialen Medien sichtbarer machen? Steigern Sie den Traffic auf Ihrer Website mithilfe von Social Media?';
 include_once('header.php');
+
 ?>
   <!-- BANNER SECTION -->
   <section class="subpage-section-wrapper-img-lg ">
