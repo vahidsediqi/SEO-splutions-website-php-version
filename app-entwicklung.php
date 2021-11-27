@@ -25,7 +25,7 @@ include_once('header.php');
         </div>
         <!--/ -->
          <div class="app-dev-banner-image-wrapper">
-            <img class="img-fluid" src="./assets/images/app-page-banner.jpg" alt="seo solutions climb up">
+            <img class="img-fluid" src="/assets/images/app-page-banner.jpg" alt="seo solutions climb up">
          </div>
 </section>
 
@@ -53,7 +53,7 @@ include_once('header.php');
 <!-- web design tools -->
 <section class="tools-wrapper">
   <div class="tools-img-wrapper">
-     <img class="img-fluid" src="./assets/images/app tools.png" alt="">
+     <img class="img-fluid" src="/assets/images/app tools.png" alt="">
   </div>
   <div class="tools-content-wrapper">
     <div class="sub-upper-title-wrapper">
@@ -72,7 +72,9 @@ include_once('header.php');
               <h2 class="section-title-black">RÜCKRUF SERVICE</h2>
               <h2 class="section-subtitle">Wir rufen Sie zurück!</h2>
            <form class="cta-form" action="">
-             <input class="cta-input" type="text" placeholder="Telefonnummer">
+             <input class="cta-input tel-input" type="text"
+             pattern="[0-9]{9,14}" placeholder="Telefonnumer">
+             
              <button class="cta-form-button">Senden</button>
            </form>
      
@@ -85,7 +87,7 @@ include_once('header.php');
         </div>
         <!--/ -->
         <div class="">
-            <img class="img-fluid" src="./assets/images/app.jpg" alt="seo solutions climb up">
+            <img class="img-fluid" src="/assets/images/app.jpg" alt="seo solutions climb up">
          </div>
 </section>
 
@@ -93,7 +95,7 @@ include_once('header.php');
 <section class="seo-tools-wrapper">
     <h2 class="red-title">APP Entwickler Wien</h2>
       <h3>Wir sind der richtige Ansprechpartner für eine App Entwicklung in Wien und Österreich. Kostenloses Beratungsgespräch.</h3>
-    <img class="img-fluid" src="./assets/images/tool-logos.png" alt="seo tools">
+    <img class="img-fluid" src="/assets/images/tool-logos.png" alt="seo tools">
 </section>
 
 
@@ -140,8 +142,8 @@ include_once('header.php');
      <div class="process-white-space right-inner-text-box" ></div>
     </div>
     <!-- side rotate process title -->
-    <h1 class="process-title">PROZESS</h1>
-    <h1 class="why-title">Warum</h1>
+    <h2 class="process-title">PROZESS</h2>
+    <h2 class="why-title">Warum</h2>
 
  </div>
 <!-- / END OF PROCESS SECTION -->
@@ -153,24 +155,24 @@ include_once('header.php');
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <h1 class="pt-5">PROZESS</h1>
+        <h2 class="pt-5">PROZESS</h2>
         <div class="carousel-inner pb-4">
           <div class="carousel-item active">
-            <img src="./assets/images/process1.png" alt="">
+            <img src="/assets/images/process1.png" alt="">
             <p class="p-4">
                 <h3>Beratung</h3>
                 In erster Linie ist ein unverbindliches Beratungsgespräch wichtig. Dabei werden die wichtigsten Themen erarbeitet und besprochen. Da dieses Gespräch zur Aufklärung dient, sollten wir danach wissen wer diese App nutzen wird und welche Basisfunktionen Sie enthalten soll. 
             </p>
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/process2.png" alt="">
+            <img src="/assets/images/process2.png" alt="">
             <p class="p-4">
                 <h3>Design</h3>
                 Neben der Funktionalität ist auch das optisch ansprechende Design der App sehr wichtig. Wir erstellen ein einzigartiges Design und kombinieren die Optik und die Funktionalität der App. Wenn Sie mit dem Design einverstanden sind, fangen wir mit der Programmierung an. 
             </p>          
         </div>
           <div class="carousel-item">
-            <img src="./assets/images/process3.png" alt="">
+            <img src="/assets/images/process3.png" alt="">
             <p class="p-4">
                 <h3>Programmierung</h3>
                 Jedes Betriebssystem hat bestimmte Anforderungen und ist unterschiedlich in der Funktionalität als auch am Design. Das Team wählt eine passende Technologie in der jeweiligen Programmiersprache, denn unsere Experten haben die nötige Erfahrung für diese Arbeit.
@@ -257,7 +259,7 @@ include_once('header.php');
   </div>
 </div>
 
- <h1 class="choose-us-title">uns wählen?</h1>
+ <h2 class="choose-us-title">uns wählen?</h2>
 </div>
 
 <?php 

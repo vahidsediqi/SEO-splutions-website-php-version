@@ -6,6 +6,7 @@ RewriteRule ^app-entwicklung app-entwicklung.php  [L,NC]
 RewriteRule ^blog blog.php  [L,NC]
 
 RewriteRule ^impressum impressum.php  [L,NC]
+RewriteRule ^uber-uns uber-uns.php  [L,NC]
 
 RewriteRule ^kontakt kontakt.php  [L,NC]
 

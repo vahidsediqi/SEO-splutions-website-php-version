@@ -159,3 +159,45 @@ function animate() {
 
 drawVisor();
 animate();
+
+// form validation
+
+
+function validateContactForm() {
+            var valid = true;
+            $(".info").html("");
+            $(".input-field").css('border', '#e0dfdf 1px solid');
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var phone = $("#phone").val();
+            var msg = $("#msg").val();
+            
+            if (userName == "") {
+                $("#name-info").html("Required.");
+                $("#name").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            if (name == "") {
+                $("#name-info").html("Required.");
+                $("#name").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            if (!name.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
+            {
+                $("#name-info").html("Invalid Email Address.");
+                $("#name").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+
+            if (subject == "") {
+                $("#phone-info").html("Required.");
+                $("#phone").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            if (content == "") {
+                $("#msg-info").html("Required.");
+                $("#msg").css('border', '#e66262 1px solid');
+                valid = false;
+            }
+            return valid;
+        }

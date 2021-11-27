@@ -1,0 +1,46 @@
+[25-Nov-2021 18:42:14 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 34
+[25-Nov-2021 18:42:19 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 34
+[25-Nov-2021 18:42:20 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 34
+[25-Nov-2021 18:42:21 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 34
+[25-Nov-2021 18:42:28 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 34
+[25-Nov-2021 18:42:38 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 34
+[26-Nov-2021 06:06:33 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/seosolutions/public_html/kontakt.php on line 58
+[26-Nov-2021 06:06:37 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/seosolutions/public_html/kontakt.php on line 58
+[26-Nov-2021 06:06:57 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/seosolutions/public_html/kontakt.php on line 58
+[26-Nov-2021 06:15:16 UTC] PHP Warning:  Use of undefined constant phone - assumed 'phone' (this will throw an Error in a future version of PHP) in /home/seosolutions/public_html/kontakt.php on line 16
+[26-Nov-2021 06:15:55 UTC] PHP Warning:  Use of undefined constant phone - assumed 'phone' (this will throw an Error in a future version of PHP) in /home/seosolutions/public_html/kontakt.php on line 16
+[26-Nov-2021 06:19:13 UTC] PHP Warning:  Use of undefined constant phone - assumed 'phone' (this will throw an Error in a future version of PHP) in /home/seosolutions/public_html/kontakt.php on line 15
+[26-Nov-2021 06:28:21 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:28:24 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:28:26 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:28:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:29:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:29:46 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 41
+[26-Nov-2021 06:31:10 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:31:12 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:31:18 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:31:30 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:32:15 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/seosolutions/public_html/kontakt.php on line 44
+[26-Nov-2021 06:56:34 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:56:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 22
+[26-Nov-2021 06:59:02 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/seosolutions/public_html/kontakt.php on line 10
+[26-Nov-2021 07:00:13 UTC] PHP Warning:  require_once(contact-view.php): failed to open stream: No such file or directory in /home/seosolutions/public_html/kontakt.php on line 21
+[26-Nov-2021 07:00:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'contact-view.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/seosolutions/public_html/kontakt.php on line 21

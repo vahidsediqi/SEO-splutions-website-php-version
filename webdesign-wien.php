@@ -7,7 +7,7 @@ include_once('header.php');
     <!-- Banner starts here -->
    <section class="subpage-section-wrapper-img-lg">
     <div class="slider-wrapper">
-        <img class="img-fluid" src="./assets/images/webdesign-banner.png" alt="web design">
+        <img class="img-fluid" src="/assets/images/webdesign-banner.png" alt="web design">
     </div>
     <div class="web-design-banner-title-wrapper">
         <div class="web-design-banner-title-wrapper">
@@ -106,7 +106,8 @@ include_once('header.php');
           <h2 class="section-title-black">RÜCKRUF SERVICE</h2>
           <h2 class="section-subtitle">Wir rufen Sie zurück!</h2>
        <form class="cta-form" action="">
-         <input class="cta-input" type="text" placeholder="Telefonnummer">
+<input class="cta-input tel-input" type="text"
+             pattern="[0-9]{9,14}" placeholder="Telefonnumer">
          <button class="cta-form-button">Senden</button>
        </form>
  
@@ -119,7 +120,7 @@ include_once('header.php');
         </div>
         <!--/ -->
         <div class="">
-            <img class="img-fluid" src="./assets/images/webdesign-img2.png" alt="seo solutions climb up">
+            <img class="img-fluid" src="/assets/images/webdesign-img2.png" alt="seo solutions climb up">
          </div>
 </section>
 
@@ -127,7 +128,7 @@ include_once('header.php');
 
 <section class="tools-wrapper">
     <div class="tools-img-wrapper">
-        <img class="img-fluid" src="./assets/images/website builder tools.png" alt="">
+        <img class="img-fluid" src="/assets/images/website builder tools.png" alt="">
     </div>
     <div class="tools-content-wrapper">
         <div class="tools-content-wrapper">
@@ -261,20 +262,20 @@ include_once('header.php');
         <h1 class="pt-5">Prozess</h1>
         <div class="carousel-inner pb-4">
             <div class="carousel-item active">
-                <img src="./assets/images/process1.png" alt="">
+                <img src="/assets/images/process1.png" alt="">
                 <p class="p-4">
                     <b>Informationen sammeln</b>
                     Unser erster Schritt bei jedem Projekt ist es so viele Information wie möglich über Ihr Vorhaben / Ihr Unternehmen einzusammeln. So können wir eine Webseite nach exakten Kundenwünschen erstellen und Ihr Unternehmen im besten Licht repräsentieren.                </p>          
             </div>
           <div class="carousel-item">
-            <img src="./assets/images/process2.png" alt="">
+            <img src="/assets/images/process2.png" alt="">
             <p class="p-4">
                  <b>Marktanalyse / Konkurrenzanalyse</b>
                  Als nächstes schauen wir uns an was auf Ihren Markt bis jetzt angeboten wird. Unser Ziel ist es für unsere Kunden noch bessere und stärkere Webseiten zu entwickeln. Nach der Marktanalyse wissen wir genau was Ihre Zielgruppe anspricht. 
             </p>          
         </div>
           <div class="carousel-item">
-            <img src="./assets/images/process3.png" alt="">
+            <img src="/assets/images/process3.png" alt="">
             <p class="p-4">
                 <b>Design Entwurf</b>
                 Nach der Recherche fangt unser Team mit dem Design an. Abhängig von der Größe des Projekts kann dies mehrere Tage dauern. Nachdem Sie den Entwurf bekommen, können Sie uns mitteilen, ob Sie noch Veränderungen vornehmen möchten.
@@ -282,7 +283,7 @@ include_once('header.php');
         </div>
 
         <div class="carousel-item">
-            <img src="./assets/images/process3.png" alt="">
+            <img src="/assets/images/process3.png" alt="">
             <p class="p-4">
                 <b>Programmierung und Fertigstellung</b>
                 Wenn das Design Entwurf zu 100% passt, fangen wir mit der tatsächlichen Website Programmierung an. Unsere Entwickler erstellen Ihre Webseite sorgfältig und fehlerfrei. Das Endprodukt ist dann in ca. einer Woche fertiggestellt. 

@@ -4,6 +4,7 @@ $PageTitle = 'Kontakt';
 $PageDescription = 'Kontaktieren Sie uns! 06641077144 office@seosolutions.at Pyrkergasse 30-32, A-1190 Wien';
 include_once('header.php');
 ?>
+
     <div class="homepage-section-wrapper-img-lg contact-page-wrapper">
         <div class="contact-section-content-wrapper">
             <h2 class="contact-title">
@@ -17,17 +18,18 @@ include_once('header.php');
 
         <!-- CONTACT FORM -->
         <div class="form-wrapper">
-            <form action="mail" method="POST">
-                <input class="form-fields" type="text" name="name" id="" placeholder="Ansprechpartner">
-                <input class="form-fields" type="text" name="tel" id="" placeholder="Telefonnummer">
-                <input class="form-fields" type="email" name="email" id="" placeholder="E-Mail">
-                <textarea class="form-text" placeholder="Nachricht" name="message"></textarea>
-                <button type="submit" class="talk-btn hvr-bounce-to-right">Senden</button>
+
+          <form action="kontakt.php" method="POST" name="contact">
+                <input class="form-fields" type="text" name="name" id="name" placeholder="Ansprechpartner" required minlength="3" maxlength="35">
+                 <input class="form-fields tel-input" type="tel" name="phone"
+                   pattern="[0-9]{9,14}"
+                   placeholder="Telefonnumer">
+                <input class="form-fields" type="email" name="email" id="email" placeholder="E-Mail">
+                <textarea name="msg" class="form-text" placeholder="Nachricht"></textarea>
+                <button type="submit" class="talk-btn hvr-bounce-to-right" onClick="sendEmail()">Senden</button>
             </form>
+     
         </div>
     </div>
     <!-- FOOOTER STARTS HERE -->
-    <?php 
-
-include_once('footer.php');
-?>
+    <?php include_once('footer.php');?>

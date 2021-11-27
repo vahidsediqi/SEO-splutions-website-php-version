@@ -1,12 +1,9 @@
 <?php
 $curr_page = "startseite";
-$PageTitle = 'SEO Agentur Wien';
+$PageTitle = 'SEO Agentur Wien: Professionelle Suchmaschinenoptimierung';
 $PageDescription = 'Erfolgreiches digitales Marketing für Ihr Unternehmen mit SEO Solutions. Wir machen Sie sichtbar! ';
 include_once('header.php');
 ?>
-<meta name="description" content="Unsere Räumungsfirma Wien bietet Ihnen alles rund um die Entrümpelung Wien und Räumung Wien. Ganz gleich ob Wohnungsräumung, Haushaltsauflösung" />
-<meta name="Robots" content="noindex, follow" />
-
     <div class="main-wrapper">
         <div class="side-bar">
             <!-- sidebar goes here -->
@@ -29,8 +26,8 @@ include_once('header.php');
                        srcset="./assets/images/seo-banner1-lg.webp, ./assets/images/seo-banner1-sm.webp 400w" class="d-block img-fluid" alt="SEO agentur wien">
                     </div>
                     <div class="carousel-item">
-                         <img width="800" height="800" src="./assets/images/seo-solution-3_1.webp"
-                         srcset="./assets/images/seo-banner2-lg.webp, ./assets/images/seo-banner2-sm.webp 400w"  class="d-block img-fluid" alt="SEO agentur wien">
+                         <img width="800" height="800" src="./assets/images/seo-bannerimage.webp"
+                         srcset="./assets/images/seo-bannerimage.webp, ./assets/images/seo-bannerimage.webp 400w"  class="d-block img-fluid" alt="SEO agentur wien">
                     </div>
                     <div class="carousel-item">
                         <img width="800" height="800" src="./assets/images/seo-solution-4.webp" 
@@ -252,11 +249,13 @@ include_once('header.php');
         </div>
         <!-- CONTACT FORM -->
         <div class="form-wrapper">
-            <form action="">
-                <input class="form-fields" type="text" name="" id="" placeholder="Ansprechpartner">
-                <input class="form-fields" type="tel" name="" id="" placeholder="Telefonnummer">
-                <input class="form-fields" type="email" name="" id="" placeholder="E-Mail">
-                <textarea class="form-text" placeholder="Nachricht"></textarea>
+            <form action="mail.php" method="POST" name="contact">
+                <input class="form-fields" type="text" name="name" id="" placeholder="Ansprechpartner" required minlength="3" maxlength="35">
+                <input class="form-fields tel-input" type="tel" name="phone"
+                   pattern="[0-9]{9,14}"
+                   placeholder="Telefonnumer">
+                <input class="form-fields" type="email" name="email" id="" placeholder="E-Mail">
+                <textarea name="msg" class="form-text" placeholder="Nachricht"></textarea>
                 <button type="submit" class="talk-btn hvr-bounce-to-right">Senden</button>
             </form>
         </div>
@@ -334,7 +333,7 @@ include_once('header.php');
 
 <div class="mt-5 pt-5">
 <h2 class="blog-title text-center">Unser Blog</h2>
-<h3 class="blog-subtitle text-center">Hören Sie von uns</h3>
+<h3 class="blog-subtitle text-center">SEO Solutions Neuigkeiten</h3>
 <section class="cards-wrapper-home">
     <div class="card-grid-space">
         
@@ -342,7 +341,7 @@ include_once('header.php');
       <a class="blog-page-card" href="./was-ist-on-page-seo.php"
        style="background-image: url('./assets/images/blog1.webp')">
         <div>
-          <h1>OnPage SEO</h1>
+          <h2>OnPage SEO</h2>
           <p>Jede SEO Strategie konzentriert sich darauf, in den Suchmaschinen so hoch wie möglich zu rangieren. Zu diesem Zweck versuchen wir als professionelle SEO Agent…</p>
           <div class="date">6-10-2021</div>
           <div class="tags">
@@ -356,7 +355,7 @@ include_once('header.php');
       <a class="blog-page-card" href="./was-ist-react.php" 
       style="background-image: url('./assets/images/blog2.webp')">
         <div>
-          <h1>Was ist React?</h1>
+          <h2>Was ist React?</h2>
           <p>React ist eine hervorragende Ergänzung zu Projekten, die Wiederverwendbarkeit von Komponenten, beeindruckende Benutzerinteraktionen oder verrückte Animationen…</p>
           <div class="date">9 Oct 2017</div>
           <div class="tags">
@@ -371,7 +370,7 @@ include_once('header.php');
       <a class="blog-page-card" href="./was-ist-javascript.php" 
       style="background-image: url('./assets/images/blog3.webp')">
         <div>
-          <h1>Was ist JavaScript, wozu dient es?</h1>
+          <h2>Was ist JavaScript, wozu dient es?</h2>
           <p>Was ist JavaScript JavaScript ist eine Skriptsprache, die entwickelt wurde, um Webseiten Lebendigkeit und Dynamik zu verleihen…</p>
           <div class="date">14 Oct 2017</div>
           <div class="tags">

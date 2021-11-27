@@ -7,12 +7,11 @@ include_once('header.php');
   <!-- BANNER SECTION -->
   <section class="subpage-section-wrapper-img-lg ">
     <div>
-        <img class="img-fluid" src="./assets/images/logo-page-banne.jpg" alt="web design">
+        <img class="img-fluid" src="/assets/images/logo-page-banne.jpg" alt="web design">
     </div>
     <div>
         <div class="logo-design-banner-title-wrapper">
             <div class="logo-design-banner-title-wrapper">
-                <!-- <h1 class="logo-design-rotate-title">Erstklassiges </h1> -->
                 <h1 class="">Erstklassiges </h1>
                 <h2 class="logo-design-half-cut-title">
                     <!-- <span>BR</span>
@@ -42,7 +41,7 @@ include_once('header.php');
 </div>
 <!-- UI -->
 <section class="webdesign-card-wrapper">
-    <h1>UI Expertis</h1>
+    <h2>UI Expertis</h2>
 <div class="landscape-card-wprapper">
     <div class="landscape-card Information-architecture hvr-bounce-to-top">
         <h2>Information Architecture</h2>
@@ -104,7 +103,7 @@ include_once('header.php');
 <!-- web design tools -->
 <section class="tools-wrapper">
     <div class="tools-img-wrapper">
-       <img width="400px" height="400px" class="img-fluid" src="./assets/images/logo-design-tools.png" alt="">
+       <img width="400px" height="400px" class="img-fluid" src="/assets/images/logo-design-tools.png" alt="">
     </div>
     <div class="tools-content-wrapper">
       <div class="sub-upper-title-wrapper">
@@ -122,7 +121,8 @@ include_once('header.php');
          <h2 class="section-title-black">RÜCKRUF SERVICE</h2>
          <h2 class="section-subtitle">Wir rufen Sie zurück!</h2>
       <form class="cta-form" action="">
-        <input class="cta-input" type="text" placeholder="Telefonnummer">
+       <input class="cta-input tel-input" type="text"
+             pattern="[0-9]{9,14}" placeholder="Telefonnumer">
         <button class="cta-form-button">Senden</button>
       </form>
 
@@ -134,7 +134,7 @@ include_once('header.php');
     </div>
 
     <div class="cta-img-wrapper">
-        <img class="img-fluid" src="./assets/images/logo-cta.png" alt="seo solutions climb up">
+        <img class="img-fluid" src="/assets/images/logo-cta.png" alt="seo solutions climb up">
     </div>
 </section>
 
@@ -244,8 +244,8 @@ include_once('header.php');
      <div class="process-white-space right-inner-text-box" ></div>
     </div>
     <!-- side rotate process title -->
-    <h1 class="process-title">Prozess</h1>
-    <h1 class="why-title">WARUM</h1>
+    <h2 class="process-title">Prozess</h2>
+    <h2 class="why-title">WARUM</h2>
 
  </div>
 
@@ -258,24 +258,24 @@ include_once('header.php');
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <h1 class="pt-5">PROZESS</h1>
+        <h2 class="pt-5">PROZESS</h2>
         <div class="carousel-inner pb-4">
           <div class="carousel-item active">
-            <img src="./assets/images/process1.png" alt="">
+            <img src="/assets/images/process1.png" alt="">
             <p class="p-4">
                <strong>Informationen sammeln</strong> <br>
                Als erstes sammeln wir und Informationen über Ihr Unternehmen, und über das was Sie als Gesamtbild repräsentieren möchten. Mit exakten Wünschen und Informationen können Sie uns bei unserem Designprozess unterstützen.
             </p>
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/process2.png" alt="">
+            <img src="/assets/images/process2.png" alt="">
             <p class="p-4">
                 <strong>Recherche und Marktanalyse</strong> <br>
                 Anhand der eingeholten Informationen fangen wir an die Branche zu recherchieren. Unsere Grafiker folgen den Logo Trends und erstellen nach der Analyse ein individuelles Konzept und eine geeignete Farbwahl. 
             </p>          
         </div>
           <div class="carousel-item">
-            <img src="./assets/images/process3.png" alt="">
+            <img src="/assets/images/process3.png" alt="">
             <p class="p-4">
                 <strong>Das Logodesign</strong> <br>
                 Nach einer Konzepterstellung fangen unsere Grafiker mit der Zeichnung an. Wir erstellen ein marktorientiertes Firmenlogo was Ihren Erwartungen entspricht. Jedes Logo wird individuell gestaltet – dafür garantieren wir!
@@ -357,7 +357,7 @@ include_once('header.php');
         </div>
     </div>
    
-    <h1 class="choose-us-title"> UNS WÄHLEN?</h1>
+    <h2 class="choose-us-title"> UNS WÄHLEN?</h2>
    </div>
    <?php 
 

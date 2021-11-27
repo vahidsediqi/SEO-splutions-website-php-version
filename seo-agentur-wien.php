@@ -7,7 +7,7 @@ include_once('header.php');
    <!-- BANNER SECTION -->
    <section class="seo-banner">
            <div class="seo-banner-image-wrapper">
-              <img class="img-fluid" src="./assets/images/banner-2.jpg" alt="web design">
+              <img class="img-fluid" src="/assets/images/banner-2.jpg" alt="web design">
            </div>
            <!-- image ends -->
             <div class="seo-banner-content-wrapper">
@@ -23,7 +23,7 @@ include_once('header.php');
    <section class="promotion-section-wrapper">
       <div class="row text-center">
          <div class="col">
-            <h1 class="long-red-title">Effektive SEO Wien</h1>
+            <h2 class="long-red-title">Effektive SEO Wien</h2>
             <h2 class="section-subtitle">Unsere SEO Agentur in Wien bietet Ihnen mehr!</h2>
             <p>
               Sie benötigen eine Suchmaschinenmaschinenoptimierung für Ihre Homepage? Bei uns sind Sie in sicheren und erfahrenen Händen. Als führende SEO Agentur Wien haben wir uns auf  SEO, PPC, Webdesign und APP Erstellung spezialisiert. Wir helfen Ihren Unternehmen mehr Leads und Kunden über Suchmaschinen zu generieren. Unsere Mitarbeiter stellen immer sicher, 
@@ -42,21 +42,21 @@ include_once('header.php');
         </div>
           <div class="col-xl-4 pro-card-wrapper">
               <div class="pro-inner-div">
-                  <h1>%600</h1>
+                  <span>%600</span>
               </div>
               <h3>Mehr Impressionen</h3>
           </div>
           <!-- / -->
           <div class="col-xl-4 pro-card-wrapper">
             <div class="pro-inner-div">
-                <h1>%600</h1>
+                <span>%600</span>
             </div>
             <h3>Mehr Interaktionen</h3>
           </div>
           <!-- / -->
           <div class="col-xl-4 pro-card-wrapper">
             <div class="pro-inner-div">
-                <h1>%600</h1>
+                <span>%600</span>
             </div>
             <h3>Mehr Besuche</h3>          
         </div>
@@ -66,7 +66,7 @@ include_once('header.php');
       <!-- CTA SECTION -->
     <section class="cta-section">
             <div class="cta-img-wrapper">
-               <img class="img-fluid" src="./assets/images/climb up.png" alt="seo solutions climb up">
+               <img class="img-fluid" src="/assets/images/climb up.png" alt="seo solutions climb up">
             </div>
             <!-- image ends -->
             <div class=" cta-overlay-text-parent">
@@ -74,7 +74,8 @@ include_once('header.php');
                 <h2 class="section-title-black">RÜCKRUF SERVICE</h2>
                 <h2 class="section-subtitle">Wir rufen Sie zurück!</h2>
              <form class="cta-form" action="">
-               <input class="cta-input" type="text" placeholder="Telefonnummer">
+               <input class="cta-input tel-input" type="text"
+             pattern="[0-9]{9,14}" placeholder="Telefonnumer">
                <button class="cta-form-button">Senden</button>
              </form>
        
@@ -111,9 +112,9 @@ include_once('header.php');
   </section>
     <!-- SEO TOOLS -->
       <section class="seo-tools-wrapper">
-                <h1 class="red-title">DIE MACHT DER SEO</h1>
+                <h2 class="red-title">DIE MACHT DER SEO</h2>
                   <h3>Eine erfolgreiche Suchmaschinenoptimierung hilft Ihrem Unternehmen höhere Rankings in den Suchmaschinen zu erzielen und somit den Umsatz zu steigern und einen konstanten Strom an Neukundengewinnung. .</h3>
-                <img class="img-fluid" src="./assets/images/tool-logos.png" alt="seo tools">
+                <img class="img-fluid" src="/assets/images/tool-logos.png" alt="seo tools">
       </section>
 
 
@@ -157,8 +158,8 @@ include_once('header.php');
      <div class="process-white-space right-inner-text-box" ></div>
     </div>
     <!-- side rotate process title -->
-    <h1 class="process-title">Prozess</h1>
-    <h1 class="why-title">WARUM</h1>
+    <h2 class="process-title">Prozess</h2>
+    <h2 class="why-title">WARUM</h2>
 
  </div>
 <!-- / END OF PROCESS SECTION -->
@@ -170,22 +171,22 @@ include_once('header.php');
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
-      <h1 class="pt-5">PROCESS</h1>
+      <h2 class="pt-5">PROCESS</h2>
       <div class="carousel-inner pb-4">
         <div class="carousel-item active">
-          <img src="./assets/images/process1.png" alt="">
+          <img src="/assets/images/process1.png" alt="">
           <p class="p-4">
             Kostenloses Beratungsgespräch. Teilen Sie uns Ihre Ziele für die Suchmaschinenoptimierung mit. Je mehr Informationen, desto besser können wir eine Strategie planen. 
           </p>
         </div>
         <div class="carousel-item">
-          <img src="./assets/images/process2.png" alt="">
+          <img src="/assets/images/process2.png" alt="">
           <p class="p-4">
             Angebotserstellung. Anhand der eingesammelten Informationen, der Konkurrenz Analyse und einer Keyword Recherche erstellen wir ein SEO-Plan für Ihre Webseite und ein unverbindliches, individuelles pauschales Angebot. Den Kostenvoranschlag schicken wir Ihnen per E-Mail. 
           </p>          
       </div>
         <div class="carousel-item">
-          <img src="./assets/images/process3.png" alt="">
+          <img src="/assets/images/process3.png" alt="">
           <p class="p-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
            	Die Suchmaschinenoptimierung. Nach einer Angebotsannehme fangen wir an unseren SEO-Plan durchzusetzen. Dieser ist immer individuell an das Unternehmen angepasst. Unsere Mitarbeiter übernehmen das On-Page und Off-Page SEO. Die ersten Resultate sind in ein paar Wochen sichtbar.
           </p>          
@@ -221,8 +222,7 @@ include_once('header.php');
        
            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
              <div class="card-body">
-              OnPage-SEO Optimierung ist eine SEO-Komponente, die sich auf die Optimierung von Elementen auf Ihrer Website konzentriert, wie Seitengeschwindigkeit und Keyword-Dichte, im Vergleich zu Faktoren außerhalb Ihrer Website, wie Backlinks. Mit OnPage SEO Optimierungen können Sie Ihre Website für Nutzer wertvoller machen, indem Sie Ihr Ranking oder Ihre Sichtbarkeit in den Suchergebnissen bei Google, Bing und anderen relevanten Suchmaschinen verbessern.
-              Mit erfolgreicher OnPage SEO Optimierung sorgt unser Team für höhere Suchergebnissen, erhöhten Traffic auf Ihrer Website und mehr Interaktion. Die Ergebnisse von OnPage SEO brauchen Zeit, aber sobald Ihre OnPage SEO Strategie auf den Weg kommt, kann sie Ihre Online-Rankings und Verkäufe in die Höhe treiben.  
+                 OnPage-SEO Optimierung ist eine SEO-Komponente, die sich auf die Optimierung von Elementen auf Ihrer Website konzentriert, wie Seitengeschwindigkeit und Keyword-Dichte, im Vergleich zu Faktoren außerhalb Ihrer Website, wie Backlinks. Mit OnPage SEO Optimierungen können Sie Ihre Website für Nutzer wertvoller machen, indem Sie Ihr Ranking oder Ihre Sichtbarkeit in den Suchergebnissen bei Google, Bing und anderen relevanten Suchmaschinen verbessern. 
              </div>
            </div>
          </div>
@@ -270,7 +270,7 @@ include_once('header.php');
   </div>
 </div>
 
- <h1 class="choose-us-title">UNS WÄHLEN?</h1>
+ <h2 class="choose-us-title">UNS WÄHLEN?</h2>
 </div>
 
   <!-- FOOOTER STARTS HERE -->

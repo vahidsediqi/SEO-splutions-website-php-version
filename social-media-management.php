@@ -7,7 +7,7 @@ include_once('header.php');
   <!-- BANNER SECTION -->
   <section class="subpage-section-wrapper-img-lg ">
     <div>
-        <img class="img-fluid" src="./assets/images/social-media-banner-image.png" alt="web design">
+        <img class="img-fluid" src="/assets/images/social-media-banner-image.png" alt="web design">
     </div>
     <div>
         <div class="logo-design-banner-title-wrapper">
@@ -32,7 +32,7 @@ include_once('header.php');
 <!-- Page Extra Text -->
 <div class="logo-design-extra-text mt-5">
     <div>
-        <h1>Social Media Management Wien</h1>
+        <h2>Social Media Management Wien</h2>
         <p>
             Sie benötigen einen Social Media Manager in Wien? Bei uns sind Sie auf der richtigen Adresse! Für einzelne Personen aber auch für Unternehmen haben Technologien und Digitale Medien an enormer Bedeutung gewonnen. Der Trend für die Zukunft geht nämlich genau in diese Richtung und erfreut sich immer mehr an Beliebtheit, denn Sie sind aus unserem alltäglichen Leben nicht mehr wegzudenken
             <span id="dots">...</span><span id="more">
@@ -43,7 +43,7 @@ include_once('header.php');
 </div>
 <!-- UI -->
 <section class="webdesign-card-wrapper">
-    <h1>UI Expertis</h1>
+    <h2>UI Expertis</h2>
 <div class="landscape-card-wprapper">
     <div class="landscape-card Information-architecture hvr-bounce-to-top">
         <h2>Information Architecture</h2>
@@ -108,7 +108,8 @@ include_once('header.php');
          <h2 class="section-title-black">RÜCKRUF SERVICE</h2>
          <h2 class="section-subtitle">Wir rufen Sie zurück!</h2>
       <form class="cta-form" action="">
-        <input class="cta-input" type="text" placeholder="Telefonnummer">
+        <input class="cta-input tel-input" type="text"
+             pattern="[0-9]{9,14}" placeholder="Telefonnumer">
         <button class="cta-form-button">Senden</button>
       </form>
 
@@ -120,7 +121,7 @@ include_once('header.php');
     </div>
 
     <div class="cta-img-wrapper">
-        <img class="img-fluid" src="./assets/images/social-image.png" alt="seo solutions climb up">
+        <img class="img-fluid" src="/assets/images/social-image.png" alt="seo solutions climb up">
     </div>
 </section>
 
@@ -139,7 +140,7 @@ include_once('header.php');
    </div>
 
    <div class="tools-img-wrapper">
-    <img width="400px" height="400px" class="img-fluid" src="./assets/images/social-meida-tools.png" alt="">
+    <img width="400px" height="400px" class="img-fluid" src="/assets/images/social-meida-tools.png" alt="">
  </div>
 </section>
 <!-- DEVELOPMENT EXPERTISE -->
@@ -244,8 +245,8 @@ include_once('header.php');
      <div class="process-white-space right-inner-text-box" ></div>
     </div>
     <!-- side rotate process title -->
-    <h1 class="process-title">Prozess</h1>
-    <h1 class="why-title">Warum</h1>
+    <h2 class="process-title">Prozess</h2>
+    <h2 class="why-title">Warum</h2>
 
  </div>
 
@@ -258,21 +259,21 @@ include_once('header.php');
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <h1 class="pt-5">PROZESS</h1>
+        <h2 class="pt-5">PROZESS</h2>
         <div class="carousel-inner pb-4">
           <div class="carousel-item active">
-            <img src="./assets/images/process1.png" alt="">
+            <img src="/assets/images/process1.png" alt="">
             <p class="p-4">
                <strong>Beratung</strong> <br>
                Lassen Sie sich von unserem Experten über ihre Wünsche beraten. Angefangen vom Konzept bis zum Grafikdesign. Wir liefern Qualität und Kreativität.            </p>
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/process2.png" alt="">
+            <img src="/assets/images/process2.png" alt="">
             <p class="p-4">
                 <strong>Redaktionsplanung</strong> <br>
                 Hierbei heißt das Zauberwort „Mehrwert“. Hier muss man sich Gedanken darüber machen ob und wie er deiner Zielgruppe einen Nutzen bringt.          </div>
           <div class="carousel-item">
-            <img src="./assets/images/process3.png" alt="">
+            <img src="/assets/images/process3.png" alt="">
             <p class="p-4">
                 <strong>Umsetzung</strong> <br>
                 Bevor wir loslegen, ist es wichtig ein gutes Fundament zu setzen. Mit einer guten Strategie nutzen wir die richtigen Digitalen Kanäle und erreichen einfach mehr.            </p>          
@@ -353,7 +354,7 @@ include_once('header.php');
         </div>
     </div>
    
-    <h1 class="choose-us-title">uns wählen?</h1>
+    <h2 class="choose-us-title">uns wählen?</h2>
    </div>
 <!-- FOOOTER STARTS HERE -->
 <?php 
